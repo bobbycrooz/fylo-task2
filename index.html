@@ -5,34 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-  
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+  <!-- external link for fontstyle -->
+  <link>
   <title>Fylo data storage component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
-<body>
 
+<!-- body tag beggins -->
+<body>
+<!-- the container div to hold the card -->
   <div class="container">
+    <!-- div card1 -->
     <div class="card1">
       <img src="images/logo.svg">
+
+      <!-- div for the icons -->
       <div class="icons">
         <img src="images/icon-document.svg">
         <img src="images/icon-folder.svg">
         <img src="images/icon-upload.svg">
       </div>
+
     </div>
+
+    <!-- div card2 -->
     <div class="card2">
       <p class="notification">you have used <srong>815 GB</srong> of your storage.</p>
+
       <div class="progress"><progress max="100" value="80"></progress>
+        <div  class="whitedot"></div>
         <div class="tootlip"><p><strong>185</strong> GB LEFT</p></div>
         <p class="min">0 GB</p><P class="max">1000 GB</P>
       </div>
     </div>
+
+
   </div>
 
   
